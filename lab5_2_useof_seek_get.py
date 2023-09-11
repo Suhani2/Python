@@ -1,0 +1,8 @@
+f=open("lab5_1.txt", "r")
+data=f.read(10)
+print(data)
+pos=f.tell()
+print("current position:", pos)
+a=f.seek(12)
+print("new pos", f.tell())
+f.close()
